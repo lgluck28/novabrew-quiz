@@ -1,6 +1,4 @@
 "use client";
-
-import Image from "next/image";
 import { useMemo, useState } from "react";
 import {
   AnswerOption,
@@ -330,12 +328,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="relative aspect-[4/3] overflow-hidden rounded-[1.25rem] border border-white/20 bg-white/10">
-                        <Image
+                        <img
                           src={topResult.profile.image}
                           alt={`${topResult.profile.name} coffee illustration`}
-                          fill
-                          className="object-cover"
-                          priority
+                          className="h-full w-full object-cover"
                         />
                       </div>
                     </div>

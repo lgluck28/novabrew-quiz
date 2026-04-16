@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-2:I[47257,["/novabrew-quiz/_next/static/chunks/0fsi8lw5utejl.js","/novabrew-quiz/_next/static/chunks/0d3tkj33oycf2.js"],"ClientPageRoot"]
-3:I[31713,["/novabrew-quiz/_next/static/chunks/0fsi8lw5utejl.js","/novabrew-quiz/_next/static/chunks/0d3tkj33oycf2.js","/novabrew-quiz/_next/static/chunks/11uhcqk_c2zf~.js"],"default"]
-6:I[97367,["/novabrew-quiz/_next/static/chunks/0fsi8lw5utejl.js","/novabrew-quiz/_next/static/chunks/0d3tkj33oycf2.js"],"OutletBoundary"]
+2:I[47257,["/novabrew-quiz/_next/static/chunks/0dbhjjzl8qfwv.js"],"ClientPageRoot"]
+3:I[31713,["/novabrew-quiz/_next/static/chunks/0dbhjjzl8qfwv.js","/novabrew-quiz/_next/static/chunks/0cg3ib1rj~zjd.js"],"default"]
+6:I[97367,["/novabrew-quiz/_next/static/chunks/0dbhjjzl8qfwv.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/novabrew-quiz/_next/static/chunks/11uhcqk_c2zf~.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"PlZe88f95CUiQVI6cTd68"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/novabrew-quiz/_next/static/chunks/0cg3ib1rj~zjd.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"zUrU3vrEW6S5I57H5CxOV"}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
