@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="56" fill="#F4ECDD"/>
+  <rect x="70" y="70" width="1060" height="760" rx="48" fill="#FFFDF8"/>
+  <circle cx="910" cy="230" r="165" fill="#DCAA68" fill-opacity="0.3"/>
+  <circle cx="270" cy="680" r="210" fill="#D1B089" fill-opacity="0.24"/>
+  <rect x="276" y="334" width="632" height="398" rx="190" fill="#C4935E"/>
+  <rect x="344" y="390" width="494" height="226" rx="113" fill="#F3DEC4"/>
+  <rect x="396" y="446" width="390" height="112" rx="56" fill="#D2A874"/>
+  <path d="M478 318C486 267 548 241 548 186" stroke="#C4935E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M600 300C608 249 670 223 670 168" stroke="#C4935E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M722 318C730 267 792 241 792 186" stroke="#C4935E" stroke-width="18" stroke-linecap="round"/>
+  <text x="160" y="196" fill="#6A4D36" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">Smooth Operator</text>
+  <text x="160" y="258" fill="#8B6B50" font-family="Arial, Helvetica, sans-serif" font-size="30">Balanced, polished, easy to return to.</text>
+</svg>
