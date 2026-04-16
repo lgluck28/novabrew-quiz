@@ -1,0 +1,12 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="56" fill="#F7EFE7"/>
+  <rect x="70" y="70" width="1060" height="760" rx="48" fill="#FFF9F3"/>
+  <circle cx="930" cy="215" r="170" fill="#E0C2A6" fill-opacity="0.28"/>
+  <circle cx="248" cy="700" r="218" fill="#B68A6A" fill-opacity="0.18"/>
+  <path d="M280 612C280 474.518 391.518 363 529 363H640C777.482 363 889 474.518 889 612V624C889 696.902 829.902 756 757 756H412C339.098 756 280 696.902 280 624V612Z" fill="#B38565"/>
+  <path d="M336 598C336 494.171 420.171 410 524 410H645C748.829 410 833 494.171 833 598V604C833 650.392 795.392 688 749 688H420C373.608 688 336 650.392 336 604V598Z" fill="#F0DBC2"/>
+  <rect x="450" y="286" width="200" height="88" rx="44" fill="#D2AA87"/>
+  <path d="M884 520H936C972.451 520 1002 549.549 1002 586C1002 622.451 972.451 652 936 652H890" stroke="#B38565" stroke-width="30" stroke-linecap="round"/>
+  <text x="160" y="196" fill="#664935" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">Cozy Classic</text>
+  <text x="160" y="258" fill="#87634A" font-family="Arial, Helvetica, sans-serif" font-size="30">Comfort-driven, warm, and easy to love.</text>
+</svg>
