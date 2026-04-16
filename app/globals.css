@@ -1,26 +1,75 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f5ecdf;
+  --foreground: #231811;
+  --paper: #fffaf4;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-jakarta);
+  --font-display: var(--font-cormorant);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-jakarta), Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(149, 111, 77, 0.22);
+}
+
+button {
+  cursor: pointer;
+}
+
+.font-display {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@keyframes floatUp {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmerIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.94) translateY(14px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-float-up {
+  animation: floatUp 4.2s ease-in-out infinite;
+}
+
+.animate-shimmer-in {
+  animation: shimmerIn 0.55s ease-out;
 }

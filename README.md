@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NovaBrew Coffee Taste Profile Quiz
 
-## Getting Started
+A warm, premium coffee personality quiz built for NovaBrew Coffee Co. Take the quiz to discover your coffee profile, see your percentage mix across four taste identities, and get matched with your ideal bag.
 
-First, run the development server:
+## Live Experience
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The quiz guides customers through six direct-preference questions and reveals a personalized result designed to make the subscription feel more thoughtful, relevant, and memorable.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Coffee Personalities
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Bold Explorer**: intense, smoky, grounded, and drawn to deeper roasts with confidence.
+- **Smooth Operator**: polished, balanced, and always looking for a reliable everyday cup.
+- **Cozy Classic**: comfort-first, warm, and happiest with familiar, easygoing flavor notes.
+- **Wild Card**: curious, expressive, and excited by unusual or experimental coffees.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Coffee Matches
 
-## Learn More
+- **Bold Explorer**: Midnight Summit
+- **Smooth Operator**: Golden Hour
+- **Cozy Classic**: Sunrise Blend and Sunday Paper
+- **Wild Card**: Off the Map
 
-To learn more about Next.js, take a look at the following resources:
+## Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- React
+- Tailwind CSS
+- GitHub Pages for deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Why It Exists
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+NovaBrew's research showed that subscribers liked the coffee itself but often churned because the experience felt generic. This prototype turns customer preferences into a more personal onboarding moment and a more memorable recommendation story.

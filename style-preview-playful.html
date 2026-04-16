@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaBrew Style Preview - Playful</title>
+  <style>
+    :root {
+      --bg1: #fff6ea;
+      --bg2: #ffd4a8;
+      --pink: #f38ca0;
+      --yellow: #ffc857;
+      --cream: #fffdf9;
+      --brown: #5c3a21;
+      --orange: #ff8d5c;
+      --teal: #4fb6a1;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: "Trebuchet MS", "Avenir Next", sans-serif;
+      color: var(--brown);
+      background:
+        radial-gradient(circle at 15% 15%, rgba(243, 140, 160, 0.45), transparent 25%),
+        radial-gradient(circle at 85% 18%, rgba(79, 182, 161, 0.32), transparent 22%),
+        radial-gradient(circle at 70% 85%, rgba(255, 200, 87, 0.4), transparent 26%),
+        linear-gradient(180deg, var(--bg1), var(--bg2));
+    }
+
+    .shell {
+      width: min(960px, 100%);
+      background: rgba(255, 253, 249, 0.92);
+      border: 3px solid rgba(92, 58, 33, 0.08);
+      border-radius: 34px;
+      box-shadow: 0 26px 60px rgba(120, 74, 34, 0.18);
+      overflow: hidden;
+    }
+
+    .hero {
+      padding: 28px 28px 8px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      background: #fff1d7;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #7c4d29;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 4.5vw, 60px);
+      line-height: 0.98;
+    }
+
+    .lead {
+      max-width: 650px;
+      margin: 0;
+      line-height: 1.7;
+      color: #77533a;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 22px;
+      padding: 20px 28px 28px;
+    }
+
+    .panel {
+      border-radius: 28px;
+      padding: 22px;
+      background: var(--cream);
+      border: 2px solid rgba(92, 58, 33, 0.08);
+    }
+
+    .question {
+      margin: 0 0 16px;
+      font-size: 31px;
+      line-height: 1.12;
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      color: #8c6346;
+      font-size: 14px;
+    }
+
+    .answers {
+      display: grid;
+      gap: 12px;
+    }
+
+    .answer {
+      padding: 16px 18px;
+      border-radius: 20px;
+      font-size: 18px;
+      border: 2px solid transparent;
+      background: #fff;
+      transition: transform 150ms ease, box-shadow 150ms ease;
+    }
+
+    .answer:nth-child(1) { background: #fff0ef; }
+    .answer:nth-child(2) { background: #eef9f7; }
+    .answer:nth-child(3) { background: #fff7e5; }
+    .answer:nth-child(4) { background: #f6efff; }
+
+    .answer:hover {
+      transform: rotate(-1deg) translateY(-2px);
+      box-shadow: 0 14px 24px rgba(132, 80, 42, 0.12);
+    }
+
+    .right {
+      display: grid;
+      gap: 16px;
+    }
+
+    .sticker {
+      border-radius: 24px;
+      padding: 18px;
+      color: white;
+      font-weight: 700;
+      min-height: 120px;
+    }
+
+    .s1 { background: linear-gradient(135deg, var(--pink), #ffb1a7); }
+    .s2 { background: linear-gradient(135deg, var(--teal), #7fd5c0); }
+    .s3 { background: linear-gradient(135deg, var(--orange), var(--yellow)); color: #6a3e00; }
+
+    .sticker small {
+      display: block;
+      margin-top: 8px;
+      font-weight: 500;
+      opacity: 0.92;
+    }
+
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">NovaBrew Coffee Personality Quiz</div>
+      <h1>Playful Direction</h1>
+      <p class="lead">Bright, friendly, and instantly shareable. This version feels more like a fun brand experience someone would want to send to a friend.</p>
+    </section>
+    <section class="grid">
+      <article class="panel">
+        <div class="meta">
+          <span>Question 1 of 6</span>
+          <span>Direct preference style</span>
+        </div>
+        <h2 class="question">When a bag of coffee shows up, what are you hoping it delivers?</h2>
+        <div class="answers">
+          <div class="answer">A. Big flavor, zero hesitation, full send</div>
+          <div class="answer">B. Smooth balance I can count on every time</div>
+          <div class="answer">C. Something soft, cozy, and easy to love</div>
+          <div class="answer">D. A weird little surprise I would never pick myself</div>
+        </div>
+      </article>
+      <aside class="right">
+        <div class="sticker s1">Fun and inviting<small>Feels social, modern, and easy to share.</small></div>
+        <div class="sticker s2">Rounded shapes + warm tones<small>Good if you want the quiz to feel approachable rather than premium-serious.</small></div>
+        <div class="sticker s3">Best for buzz<small>Great if you want personality types to feel more viral and expressive.</small></div>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

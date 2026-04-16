@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="56" fill="#F3E8DB"/>
+  <rect x="70" y="70" width="1060" height="760" rx="48" fill="#FFF9F1"/>
+  <circle cx="860" cy="250" r="180" fill="#C38757" fill-opacity="0.22"/>
+  <circle cx="300" cy="700" r="220" fill="#5A3521" fill-opacity="0.14"/>
+  <path d="M265 552C265 442.647 353.647 354 463 354H703C812.353 354 901 442.647 901 552V558C901 667.353 812.353 756 703 756H463C353.647 756 265 667.353 265 558V552Z" fill="#4A2B1B"/>
+  <path d="M338 497C338 461.654 366.654 433 402 433H753C788.346 433 817 461.654 817 497V503C817 538.346 788.346 567 753 567H402C366.654 567 338 538.346 338 503V497Z" fill="#724328"/>
+  <path d="M835 485H897C950.019 485 993 527.981 993 581C993 634.019 950.019 677 897 677H847" stroke="#724328" stroke-width="36" stroke-linecap="round"/>
+  <path d="M514 304C522.5 245.5 590 216 590 156" stroke="#A15E35" stroke-width="20" stroke-linecap="round"/>
+  <path d="M624 296C632.5 237.5 700 208 700 148" stroke="#A15E35" stroke-width="20" stroke-linecap="round"/>
+  <path d="M734 304C742.5 245.5 810 216 810 156" stroke="#A15E35" stroke-width="20" stroke-linecap="round"/>
+  <text x="160" y="196" fill="#4A2B1B" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">Bold Explorer</text>
+  <text x="160" y="258" fill="#7B5A45" font-family="Arial, Helvetica, sans-serif" font-size="30">Dark roast energy with real presence.</text>
+</svg>

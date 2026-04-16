@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaBrew Style Preview - Minimal</title>
+  <style>
+    :root {
+      --bg: #f4efe8;
+      --panel: rgba(255, 252, 248, 0.88);
+      --text: #2f241d;
+      --muted: #6b5a4d;
+      --accent: #8b6b4f;
+      --accent-soft: #dcc7b1;
+      --border: rgba(92, 71, 55, 0.14);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(220, 199, 177, 0.7), transparent 35%),
+        linear-gradient(180deg, #faf6f1 0%, var(--bg) 100%);
+    }
+
+    .shell {
+      width: min(920px, 100%);
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: 0 24px 60px rgba(69, 50, 36, 0.12);
+      backdrop-filter: blur(16px);
+      overflow: hidden;
+    }
+
+    .hero {
+      padding: 24px 28px 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(32px, 4vw, 52px);
+      line-height: 1.02;
+      font-weight: 700;
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      max-width: 620px;
+      line-height: 1.6;
+    }
+
+    .content {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      gap: 28px;
+      padding: 28px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 22px;
+      background: rgba(255,255,255,0.66);
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .question {
+      font-size: 30px;
+      line-height: 1.15;
+      margin: 0 0 22px;
+      font-weight: 600;
+    }
+
+    .answers {
+      display: grid;
+      gap: 12px;
+    }
+
+    .answer {
+      padding: 18px 18px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.92);
+      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+    }
+
+    .answer:hover {
+      transform: translateY(-2px);
+      border-color: rgba(139, 107, 79, 0.45);
+      box-shadow: 0 12px 28px rgba(83, 61, 45, 0.1);
+    }
+
+    .label {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .sidebar-title {
+      margin: 0 0 12px;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+
+    .pill-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+    }
+
+    .pill {
+      padding: 10px 14px;
+      background: var(--accent-soft);
+      color: var(--text);
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    .meter {
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(220, 199, 177, 0.55);
+      overflow: hidden;
+      margin-top: 10px;
+    }
+
+    .meter > span {
+      display: block;
+      width: 62%;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #ab8968, #7d5c42);
+    }
+
+    @media (max-width: 760px) {
+      .content {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">NovaBrew Coffee Personality Quiz</div>
+      <h1>Minimal Direction</h1>
+      <p class="sub">Quiet confidence, specialty-coffee polish, and enough warmth to feel inviting. This direction feels premium without trying too hard.</p>
+    </section>
+    <section class="content">
+      <div class="card">
+        <div class="meta">
+          <span>Question 2 of 6</span>
+          <span>Direct preference style</span>
+        </div>
+        <h2 class="question">What kind of coffee experience are you looking for most mornings?</h2>
+        <div class="answers">
+          <div class="answer"><span class="label">A</span><span class="title">Strong, bold, and impossible to ignore</span></div>
+          <div class="answer"><span class="label">B</span><span class="title">Balanced, smooth, and easy to come back to</span></div>
+          <div class="answer"><span class="label">C</span><span class="title">Warm, comforting, and familiar</span></div>
+          <div class="answer"><span class="label">D</span><span class="title">Unexpected, unusual, and a little risky</span></div>
+        </div>
+      </div>
+      <aside class="card">
+        <h3 class="sidebar-title">Style Traits</h3>
+        <div class="pill-grid">
+          <span class="pill">Muted earth tones</span>
+          <span class="pill">Clean sans-serif</span>
+          <span class="pill">Lots of white space</span>
+          <span class="pill">Subtle motion</span>
+        </div>
+        <p class="sub">Best for a polished, design-forward brand that wants to feel calm, modern, and trustworthy.</p>
+        <div class="meter"><span></span></div>
+        <p class="sub" style="margin-top:10px;">Shareability feels elevated rather than playful. The result page would likely feel tasteful and premium.</p>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

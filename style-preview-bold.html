@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaBrew Style Preview - Bold</title>
+  <style>
+    :root {
+      --bg: #16110d;
+      --panel: #211811;
+      --panel-2: #2b1f17;
+      --text: #f8ecd9;
+      --muted: #d5b489;
+      --accent: #e8b15d;
+      --accent-2: #f6d7ab;
+      --line: rgba(246, 215, 171, 0.16);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top right, rgba(232, 177, 93, 0.15), transparent 30%),
+        radial-gradient(circle at bottom left, rgba(246, 215, 171, 0.1), transparent 25%),
+        linear-gradient(180deg, #0f0a07 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+
+    .shell {
+      width: min(980px, 100%);
+      background: linear-gradient(180deg, rgba(43, 31, 23, 0.98), rgba(26, 19, 14, 0.98));
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+      overflow: hidden;
+    }
+
+    .top {
+      padding: 28px;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 22px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      font-family: "Avenir Next", Arial, sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(36px, 4.6vw, 64px);
+      line-height: 0.96;
+      font-weight: 700;
+    }
+
+    .lead {
+      color: #f1dcc0;
+      margin: 0;
+      line-height: 1.7;
+      font-family: "Avenir Next", Arial, sans-serif;
+      max-width: 560px;
+    }
+
+    .badge {
+      align-self: start;
+      border: 1px solid rgba(232, 177, 93, 0.35);
+      border-radius: 22px;
+      padding: 18px;
+      background: rgba(24, 17, 12, 0.7);
+      font-family: "Avenir Next", Arial, sans-serif;
+    }
+
+    .badge strong {
+      display: block;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .badge span {
+      font-size: 18px;
+      color: var(--accent-2);
+    }
+
+    .content {
+      padding: 28px;
+    }
+
+    .question-card {
+      border-radius: 24px;
+      padding: 26px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.08)),
+        var(--panel);
+      border: 1px solid var(--line);
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-family: "Avenir Next", Arial, sans-serif;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .question {
+      font-size: 38px;
+      line-height: 1.05;
+      margin: 0 0 22px;
+    }
+
+    .answers {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .answer {
+      min-height: 132px;
+      padding: 18px;
+      border-radius: 20px;
+      background: var(--panel-2);
+      border: 1px solid rgba(232, 177, 93, 0.16);
+      transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .answer:hover {
+      transform: translateY(-3px);
+      border-color: rgba(232, 177, 93, 0.45);
+      box-shadow: 0 16px 36px rgba(0,0,0,0.28);
+    }
+
+    .answer .tag {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(232, 177, 93, 0.12);
+      color: var(--accent);
+      font-family: "Avenir Next", Arial, sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .answer .title {
+      font-family: "Avenir Next", Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.4;
+      color: #f7ead8;
+    }
+
+    @media (max-width: 760px) {
+      .top { grid-template-columns: 1fr; }
+      .answers { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="top">
+      <div>
+        <div class="eyebrow">NovaBrew Coffee Personality Quiz</div>
+        <h1>Bold Direction</h1>
+        <p class="lead">High-end, dramatic, and confident. This version feels like a premium bar menu crossed with a luxury campaign landing page.</p>
+      </div>
+      <aside class="badge">
+        <strong>Best for</strong>
+        <span>A richer, more cinematic brand expression with strong visual contrast and premium energy.</span>
+      </aside>
+    </section>
+    <section class="content">
+      <article class="question-card">
+        <div class="meta">
+          <span>Question 4 of 6</span>
+          <span>Results: percentages</span>
+        </div>
+        <h2 class="question">Which flavor profile sounds most worth waking up for?</h2>
+        <div class="answers">
+          <div class="answer">
+            <span class="tag">A</span>
+            <div class="title">Smoky depth, dark chocolate, and serious intensity</div>
+          </div>
+          <div class="answer">
+            <span class="tag">B</span>
+            <div class="title">Balanced sweetness with caramel, cocoa, and clean structure</div>
+          </div>
+          <div class="answer">
+            <span class="tag">C</span>
+            <div class="title">Soft comfort notes that feel like a slow Sunday morning</div>
+          </div>
+          <div class="answer">
+            <span class="tag">D</span>
+            <div class="title">Something strange, bright, and a little hard to explain</div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
